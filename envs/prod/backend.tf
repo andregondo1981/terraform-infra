@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "s3-bucket-utrains"
+    bucket = "bucket-name"
     key    = "envs/prod/terraform.tfstate"
     region = "us-east-1"    
     use_lockfile = true
